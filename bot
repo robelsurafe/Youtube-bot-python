@@ -1,0 +1,6 @@
+import webbrowser, time
+url = input("https://youtu.be/4nTX0hqH1ko")
+duration = input("2000")
+for i in range (100):
+    webbrowser.open_new(url)
+    time.sleep(int(duration))
